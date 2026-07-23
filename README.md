@@ -8,16 +8,32 @@ dependencies.
 
 ---
 
+## Pages
+
+| File | URL | What it is |
+|---|---|---|
+| `index.html` | `/` | Home — hero, positioning, featured product, the 12 herbs, ritual, story, FAQ |
+| `shop.html` | `/shop` | All products |
+| `hair-tonic-spray.html` | `/hair-tonic-spray` | Product page — Hair Tonic Spray, Rs 2,000 |
+| `ars-herbal-hair-mask.html` | `/ars-herbal-hair-mask` | Product page — ARS Herbal Hair Mask, Rs 2,500 |
+| `ritual-set.html` | `/ritual-set` | Product page — The Ritual Set bundle, Rs 4,200 |
+
+Shared across every page: `styles.css` and `main.js`. Edit those once and all
+five pages update.
+
 ## What's in it
 
 - Full-bleed photographic hero with scroll parallax
-- Product panel with a **3D tilt** interaction and sticky scroll
+- Product pages with a gallery, **3D tilt**, sticky image column, spec
+  accordions and cross-sells
 - **The Blend** — 12 real herb photographs on 3D tilting cards that reveal
   what each herb does
-- Editorial results section, four-step ritual, brand story, reviews
-- WhatsApp ordering throughout (pre-filled per product), plus Instagram,
-  Facebook and TikTok links
-- Fully responsive, keyboard accessible, honours `prefers-reduced-motion`
+- Editorial results section, week-by-week timeline, four-step ritual, brand
+  story, reviews, FAQ
+- WhatsApp ordering throughout, pre-filled with the specific product and
+  price, plus Instagram, Facebook and TikTok links
+- Mobile menu, fully responsive, keyboard accessible, honours
+  `prefers-reduced-motion`
 
 ## Add your product photos
 
