@@ -123,7 +123,7 @@
 
   var grid = d.getElementById("herbGrid");
   if(grid){
-    var IMG = "https://images.unsplash.com/photo-", Q = "?auto=format&fit=crop&w=1400&q=85";
+    var IMG = "https://images.unsplash.com/photo-", Q = "?auto=format&fit=crop&w=700&q=85";
     herbs.forEach(function(h,i){
       var c = d.createElement("article");
       c.className = "herb-card"; c.tabIndex = 0;
