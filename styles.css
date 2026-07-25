@@ -189,7 +189,7 @@ em.gold{ font-style:italic; color:var(--accent); }
 @media (max-width:940px){ .pdp-stage{ position:static; } }
 .pdp-visual{ position:relative; border-radius:22px; overflow:hidden; border:1px solid var(--line-soft);
   background:radial-gradient(120% 90% at 50% 18%,oklch(0.30 0.05 90/.38),var(--surface) 62%,var(--bg-deep));
-  aspect-ratio:1/1; display:grid; place-items:center; box-shadow:var(--shadow-lg);
+  aspect-ratio:4/5; max-width:78%; margin-inline:auto; display:grid; place-items:center; box-shadow:var(--shadow-lg);
   will-change:transform; transition:transform .7s var(--ease); }
 .pdp-photo{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:5; transition:transform 1.2s var(--ease); }
 .pdp-visual:hover .pdp-photo{ transform:scale(1.04); }
@@ -222,7 +222,7 @@ em.gold{ font-style:italic; color:var(--accent); }
 .pcard{ display:flex; flex-direction:column; border:1px solid var(--line-soft); border-radius:20px; overflow:hidden;
   background:linear-gradient(180deg,var(--surface),var(--bg)); transition:border-color .4s,transform .5s var(--ease),box-shadow .5s var(--ease); }
 .pcard:hover{ border-color:oklch(0.82 0.13 78/.5); transform:translateY(-6px); box-shadow:var(--shadow-md); }
-.pcard-media{ position:relative; aspect-ratio:1/1; overflow:hidden; display:grid; place-items:center;
+.pcard-media{ position:relative; aspect-ratio:4/5; overflow:hidden; display:grid; place-items:center;
   background:radial-gradient(120% 90% at 50% 18%,oklch(0.30 0.05 90/.35),var(--surface) 62%,var(--bg-deep)); }
 .pcard-media img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:5; transition:transform 1.1s var(--ease); }
 .pcard:hover .pcard-media img{ transform:scale(1.06); }
@@ -246,7 +246,7 @@ em.gold{ font-style:italic; color:var(--accent); }
 @media (max-width:940px){ .prod-grid{ grid-template-columns:1fr; } }
 .gal{ position:sticky; top:7rem; }
 @media (max-width:940px){ .gal{ position:static; } }
-.gal-main{ position:relative; border-radius:22px; overflow:hidden; border:1px solid var(--line-soft); aspect-ratio:1/1;
+.gal-main{ position:relative; border-radius:22px; overflow:hidden; border:1px solid var(--line-soft); aspect-ratio:4/5; max-width:78%; margin-inline:auto;
   display:grid; place-items:center; background:radial-gradient(120% 90% at 50% 18%,oklch(0.30 0.05 90/.38),var(--surface) 62%,var(--bg-deep)); box-shadow:var(--shadow-lg); }
 .gal-main img{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:5; transition:opacity .4s var(--ease); }
 .gal-thumbs{ display:flex; gap:.7rem; margin-top:.8rem; }
